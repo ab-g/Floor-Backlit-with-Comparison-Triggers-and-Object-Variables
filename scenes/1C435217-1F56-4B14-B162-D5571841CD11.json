@@ -1,0 +1,4304 @@
+{
+    "@class": "BaseScene",
+    "id": {
+        "uuid": "1C435217-1F56-4B14-B162-D5571841CD11"
+    },
+    "name": "Level",
+    "nodes": [
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "243649C0-D7F6-48FA-A44E-36AD29632827"
+                },
+                "name": "UserRootObject",
+                "enabled": true,
+                "visible": false,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5",
+                "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9",
+                "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2",
+                "8CBF207B-E0A8-45AA-B0C4-2192566D301C",
+                "C011E5C2-FB7D-4310-9A84-69FC09B35127"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "color_index": 2,
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "D8E1D3DE-2BB8-4152-AD73-D8CFD5761AB5"
+                },
+                "name": "MainCamera",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "camera": {
+                    "@class": "BaseComponentCamera",
+                    "cameraId": {
+                        "uuid": "99DE5B61-6462-40B9-A813-FBA5AA0FB737"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0000001192092896,
+                            -2.8418201125646193e-8,
+                            1.7763570511584874e-15,
+                            0.0,
+                            2.7986514439248823e-8,
+                            0.9848096370697022,
+                            -0.17364861071109773,
+                            0.0,
+                            4.934778807808016e-9,
+                            0.17364861071109773,
+                            0.9848096370697022,
+                            0.0,
+                            13.0,
+                            4.0,
+                            20.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "color_index": 5,
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A0DAFCA4-98B7-44FF-B61E-24DDEDB47BB9"
+                },
+                "name": "MainCharacter",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "spawner": {
+                    "@class": "BaseComponentSpawner",
+                    "characterScriptId": {
+                        "uuid": "CCE70F4E-1368-4374-B62D-B7FD0C83A0A1"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "color_index": 6,
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "69B3343E-0E21-4C30-8FA4-BC470CC0CAF2"
+                },
+                "name": "Item 1",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": false,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "3BF92E38-04DF-46A6-A60E-CB76667083A9"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "2DFB2E0B-E99A-4A53-8D30-B57257AF17EB"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "8DC0A2E6-C6A7-4065-B998-1454615E3B52"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "70D69DB0-8308-441B-BD47-892C70F11781"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "Plane_zero",
+                    "importedName": "Plane_zero",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "asset_id": {
+                "uuid": "2C3ADF7E-395B-47DA-9A78-3DBE397225B5"
+            },
+            "is_asset_root": true,
+            "asset_name": "Floor_200x200"
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "8CBF207B-E0A8-45AA-B0C4-2192566D301C"
+                },
+                "name": "Tile",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            5.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "14771302-1038-4C29-9508-FB8C1D04E14C",
+                "4376C157-9E8D-4F7D-87CA-9B75F7AA4B08",
+                "9D8B7D4D-86DF-4C7A-B58E-C3B3303625CE",
+                "32B3968E-517A-4601-87B6-2981CD57E004",
+                "DB1F8540-E0E5-473E-98C0-FBE1519BD13C",
+                "96289705-F75B-4F43-8F96-E885B76D4583",
+                "23DEB73D-B7EC-4974-9AE8-83BBEC0BCF7A",
+                "42C8BD69-41DD-4C09-A09A-AB6805A29074",
+                "9365A0A7-0DA7-4A2E-9B1C-8FDE24E6071D",
+                "D5110E69-13D3-43B5-B42C-F8B8126045C6",
+                "AC52800C-81BB-4598-8FCB-44E9D36BAFFE"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "14771302-1038-4C29-9508-FB8C1D04E14C"
+                },
+                "name": "A",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "74CD3A71-4188-4EBA-997D-F57A277E04C3",
+                "2A51A4CE-16C1-4ECA-B53B-57893D5A9C50",
+                "BA760E73-ADC5-4895-9F4A-6442BC0AC7BB",
+                "2F9D406B-D381-463B-B1D8-8125A1370758",
+                "56AF99B9-1921-4563-B426-5EEA4AB4AE50"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "74CD3A71-4188-4EBA-997D-F57A277E04C3"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "9F486FCA-7066-47D2-829B-3E0A04139B5E"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "F5A1014E-DA00-40C3-A926-FDAB4F6B4021"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "2A51A4CE-16C1-4ECA-B53B-57893D5A9C50"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "5C5C2D5B-48CA-47DD-A38B-6F7CE88ED69D"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "BA760E73-ADC5-4895-9F4A-6442BC0AC7BB"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "57704B8D-B7A9-4360-9113-1C95C8D1E5E6"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "2F9D406B-D381-463B-B1D8-8125A1370758"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "EFEEC226-5011-4AF3-86B8-F5AD4285AC93"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "56AF99B9-1921-4563-B426-5EEA4AB4AE50"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "9184244F-062A-4974-9D60-FC58838F61BB"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4376C157-9E8D-4F7D-87CA-9B75F7AA4B08"
+                },
+                "name": "B",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9993908405303955,
+                            0.034899502992630008,
+                            0.0,
+                            0.0,
+                            -0.034899502992630008,
+                            0.9993908405303955,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            2.0999999046325685,
+                            0.07999999821186066,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "3CA108C0-552A-4BC7-A0E8-C34D9C57B38E",
+                "DF8EC083-135B-482B-A133-E86BB1F047D2",
+                "A02E7DF7-53F7-426B-AE92-3496207498E7",
+                "003FE635-BC9C-4E86-835C-BC5865F2730F",
+                "3C1E751A-BCC6-4F61-A491-9F26E46F33D9"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "3CA108C0-552A-4BC7-A0E8-C34D9C57B38E"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "FAE0A79F-13D9-49E7-9DEA-E3A76A48B1BE"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "04F9A85A-B27B-478D-9F80-C640490AC091"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.10000000894069672,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "DF8EC083-135B-482B-A133-E86BB1F047D2"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "1A811FEC-5C27-4B81-A118-4E3BD0CC64E2"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A02E7DF7-53F7-426B-AE92-3496207498E7"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "F6771762-401F-4291-9EF6-5EB4CCC52E96"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "003FE635-BC9C-4E86-835C-BC5865F2730F"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "78B461CC-141D-40A7-8335-0479077381CD"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "3C1E751A-BCC6-4F61-A491-9F26E46F33D9"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "A983BA40-2036-4EA1-9C11-F29D690E3CB3"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "9D8B7D4D-86DF-4C7A-B58E-C3B3303625CE"
+                },
+                "name": "C",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9975640773773193,
+                            0.06975647062063217,
+                            0.0,
+                            0.0,
+                            -0.06975647062063217,
+                            0.9975640773773193,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            4.199999809265137,
+                            0.20000000298023225,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "4F20CBC3-749D-48F9-9207-410F0F765283",
+                "8DBC36B9-F02B-41FC-93A0-38771BAF0B2F",
+                "3BFCEBEC-E2CB-475C-9EC1-20D8C6B118E8",
+                "15312387-3E15-45A7-A5D1-9333362ADA22",
+                "0C68002D-51EA-40A4-8753-D7AF08B95A1A"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4F20CBC3-749D-48F9-9207-410F0F765283"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "B76A3EE5-498D-4A7C-B06F-18DB5A6BDC80"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "1C9DF6A8-164B-4E45-92FD-A6334CBED290"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "8DBC36B9-F02B-41FC-93A0-38771BAF0B2F"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "59786475-6435-49C4-A10E-A13DE65A2941"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "3BFCEBEC-E2CB-475C-9EC1-20D8C6B118E8"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "5240E4D9-641D-4725-A5FA-88EB8952256A"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "15312387-3E15-45A7-A5D1-9333362ADA22"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "3C0E0D53-B3D0-432C-834F-BB6991F478ED"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "0C68002D-51EA-40A4-8753-D7AF08B95A1A"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "374904DC-0078-4F77-9ECC-2C455C5EE5CF"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "32B3968E-517A-4601-87B6-2981CD57E004"
+                },
+                "name": "D",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9945219159126282,
+                            0.10452846437692642,
+                            0.0,
+                            0.0,
+                            -0.10452846437692642,
+                            0.9945219159126282,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            6.300000190734863,
+                            0.4000000059604645,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "BA825BF9-E4D7-4FD4-A873-3AB18BB24968",
+                "200B4036-B256-4AD4-B96B-AAC0111A8E01",
+                "74B44578-1EC0-4F50-B1B0-DA12F65BA698",
+                "0AB2085C-8FC8-4CBB-BA75-EE341E4F7E1E",
+                "57C430F5-4A4D-4384-A62C-107719379D67"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "BA825BF9-E4D7-4FD4-A873-3AB18BB24968"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "87C88D4A-0D6E-4993-BBA0-C7D0B21591DF"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "2301894A-9F65-4839-88B7-EDD0315B4B9A"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "200B4036-B256-4AD4-B96B-AAC0111A8E01"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "B99B70FE-CF16-4FF3-94B1-93E3AC021BFF"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "74B44578-1EC0-4F50-B1B0-DA12F65BA698"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "50621E2B-FAA3-4238-97DA-E86A84FF8979"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "0AB2085C-8FC8-4CBB-BA75-EE341E4F7E1E"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "25C39A6A-4374-40F9-A622-151F9C988F61"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "57C430F5-4A4D-4384-A62C-107719379D67"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "DA8C7A8C-366B-438C-BFEF-026F1D60657F"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "DB1F8540-E0E5-473E-98C0-FBE1519BD13C"
+                },
+                "name": "E",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9902681708335877,
+                            0.13917313516139985,
+                            0.0,
+                            0.0,
+                            -0.13917313516139985,
+                            0.9902681708335877,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            8.399999618530274,
+                            0.6499999761581421,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "4A7DBEC1-4A44-4ED8-B9A9-10F84031B7BC",
+                "8351059A-9AA9-4750-83D9-F5EB2839B3C2",
+                "F2AD550B-E0B1-45D5-A8A1-04E44500981E",
+                "9E7177EF-1FED-4AA8-8807-D20EE4A79901",
+                "E73837F1-4C35-4F7E-8855-49ED270CF085"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "4A7DBEC1-4A44-4ED8-B9A9-10F84031B7BC"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "B2F13A5F-F703-411B-8A73-845620CA3B38"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "B81493B6-A07D-4871-956B-74B0E1F5C6EF"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "8351059A-9AA9-4750-83D9-F5EB2839B3C2"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "CC236F90-0ACC-40BE-A27E-33286F4F40A9"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "F2AD550B-E0B1-45D5-A8A1-04E44500981E"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "4C388E22-17FB-4BBB-882C-E44BF416AA26"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "9E7177EF-1FED-4AA8-8807-D20EE4A79901"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "9584CA77-8FA6-49E0-9423-EB1E646B5D1E"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "E73837F1-4C35-4F7E-8855-49ED270CF085"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "9C6FC3CC-617A-42F2-81BC-01AA99E674D6"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "96289705-F75B-4F43-8F96-E885B76D4583"
+                },
+                "name": "F",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9848078489303589,
+                            0.1736481934785843,
+                            0.0,
+                            0.0,
+                            -0.1736481934785843,
+                            0.9848078489303589,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            10.5,
+                            1.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "A906DC44-C1C1-4FF2-AE47-87786A95251C",
+                "9B43814B-3723-4433-9977-766DC4047F97",
+                "540D05C4-B215-43C9-82AB-39B0E8D5072B",
+                "588DB5C2-00E8-45C6-A0DC-EAA26ED94E06",
+                "B8210523-9062-4D65-A7A2-8CC3983AE654"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A906DC44-C1C1-4FF2-AE47-87786A95251C"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "A0E9DA00-7F54-4F35-9950-575AC1B49D87"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "D290B55A-6A06-4F99-915F-A616827C1D56"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "9B43814B-3723-4433-9977-766DC4047F97"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "473E4884-AA36-4501-B45F-E1D342CA062E"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "540D05C4-B215-43C9-82AB-39B0E8D5072B"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "EA76EB92-7965-4AFD-A650-CE063EF19E6A"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "588DB5C2-00E8-45C6-A0DC-EAA26ED94E06"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "0D0EAE93-8C87-4B50-B904-64A9C1916D97"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "B8210523-9062-4D65-A7A2-8CC3983AE654"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "7E733F65-EBC1-442D-94BB-918D3D52A4E6"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "23DEB73D-B7EC-4974-9AE8-83BBEC0BCF7A"
+                },
+                "name": "G",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.978147566318512,
+                            0.20791175961494447,
+                            0.0,
+                            0.0,
+                            -0.20791175961494447,
+                            0.978147566318512,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            12.600000381469727,
+                            1.399999976158142,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "47850426-5583-471C-8D61-270B31BAEC58",
+                "A01D205E-6A84-4497-8A96-0D6E9632C408",
+                "0C808503-6C87-41DA-B155-B7E956D192ED",
+                "36B6496F-C577-4805-B55D-30B219652BEA",
+                "02ABDACC-03FB-4A62-9917-C0F4EAB691F9"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "47850426-5583-471C-8D61-270B31BAEC58"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "804431A9-C012-4C8F-9E3C-F78561AE207D"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "582C3031-C652-448C-9C0C-E4EA33A4FA66"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A01D205E-6A84-4497-8A96-0D6E9632C408"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "E331F2AB-8E0E-4B31-BB0F-1101E4D185DC"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "0C808503-6C87-41DA-B155-B7E956D192ED"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "D0594C7B-2668-47F6-AC4D-F965089F3ADB"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "36B6496F-C577-4805-B55D-30B219652BEA"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "3766B5D3-3F55-4666-8142-1476AC4B8A99"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "02ABDACC-03FB-4A62-9917-C0F4EAB691F9"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "23E06072-FCEE-4814-B0F8-ADFED67A0B4E"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "42C8BD69-41DD-4C09-A09A-AB6805A29074"
+                },
+                "name": "H",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9702957272529602,
+                            0.24192190170288087,
+                            0.0,
+                            0.0,
+                            -0.24192190170288087,
+                            0.9702957272529602,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            14.699999809265137,
+                            1.899999976158142,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "E2BB6785-1356-46EB-BECE-C38100B81E50",
+                "AD03509D-C86B-4AAF-BF46-086DC4B057F1",
+                "586AB9D5-95A2-4658-A289-F3713C559850",
+                "5CB03646-BCBD-405B-9C03-EFF4C85DA4B1",
+                "D3C7988C-EB7F-4478-A67E-FCDFCF78D949"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "E2BB6785-1356-46EB-BECE-C38100B81E50"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "C53203E8-84F0-48D9-B6A2-AE4181AF6240"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "DA5EA55C-B3A2-49AD-8314-02A464F085F8"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "AD03509D-C86B-4AAF-BF46-086DC4B057F1"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "B28DF069-0844-4404-8FB5-0290F9FA1E7B"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "586AB9D5-95A2-4658-A289-F3713C559850"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "831EDE06-A4E8-494C-9341-221171AD7B9C"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "5CB03646-BCBD-405B-9C03-EFF4C85DA4B1"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "F6B707F6-62EF-47DB-8C78-3D5C8D7E8B07"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "D3C7988C-EB7F-4478-A67E-FCDFCF78D949"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "1519C272-E363-4332-94F3-FB67F0A2763A"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "9365A0A7-0DA7-4A2E-9B1C-8FDE24E6071D"
+                },
+                "name": "I",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9612616896629334,
+                            0.27563735842704775,
+                            0.0,
+                            0.0,
+                            -0.27563735842704775,
+                            0.9612616896629334,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            16.799999237060548,
+                            2.5,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "C67E7CCA-E6A1-4755-BDF9-A04722423751",
+                "09FEEF9F-491E-4849-A577-03AA12A6978F",
+                "25FD484B-C204-42CB-AED5-C64F598C86E8",
+                "731EE05A-747D-4667-8014-DAA9D71BA44A",
+                "3424BC4E-2365-413A-8763-93BD90721CCF"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C67E7CCA-E6A1-4755-BDF9-A04722423751"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "CBC66D2A-6647-4334-B387-4E3E47265129"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "5E16A2F4-B9D0-43BA-8A11-986396B9707C"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "09FEEF9F-491E-4849-A577-03AA12A6978F"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "A59BF44B-67BB-4DCF-9114-0D110EB999BE"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "25FD484B-C204-42CB-AED5-C64F598C86E8"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "54481E84-BC48-4341-B566-F12986A01FD6"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "731EE05A-747D-4667-8014-DAA9D71BA44A"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "68C3A050-686C-499D-9F01-92F69DCE4C19"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "3424BC4E-2365-413A-8763-93BD90721CCF"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "128FF52F-1685-4C49-A54D-397B62960CD0"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "D5110E69-13D3-43B5-B42C-F8B8126045C6"
+                },
+                "name": "J",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.951056718826294,
+                            0.3090170919895172,
+                            0.0,
+                            0.0,
+                            -0.3090170919895172,
+                            0.951056718826294,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            18.899999618530275,
+                            3.200000047683716,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "310359CE-FDA9-4AD7-B658-3B8E7077CC2D",
+                "6733E19E-9F11-4EA0-9C09-4255CD5D0077",
+                "00CCAA05-FA59-4A56-A340-02302BC0C432",
+                "82183E4C-997C-425E-B57B-A687407981A6",
+                "CA75684D-8219-4B6C-802B-6F7DC6D704EF"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "310359CE-FDA9-4AD7-B658-3B8E7077CC2D"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "4FE69B8B-BD16-4A22-B695-62E6F4C862AB"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "96C3F808-A46E-4C44-8265-08AD99C2E435"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "6733E19E-9F11-4EA0-9C09-4255CD5D0077"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "F21E092B-E11F-4D65-855C-0690BED4B92C"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "00CCAA05-FA59-4A56-A340-02302BC0C432"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "69AAFACA-7E75-48FD-AC0D-9FD41DFF25A6"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "82183E4C-997C-425E-B57B-A687407981A6"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "36B1DBF0-F251-4832-8B5E-1FCBCEEA8894"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "CA75684D-8219-4B6C-802B-6F7DC6D704EF"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "7228E3A6-C28C-4455-9D21-5562D13D0751"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "AC52800C-81BB-4598-8FCB-44E9D36BAFFE"
+                },
+                "name": "K",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            0.9396925568580627,
+                            0.34202030301094057,
+                            0.0,
+                            0.0,
+                            -0.34202030301094057,
+                            0.9396925568580627,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0,
+                            0.0,
+                            21.0,
+                            4.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            },
+            "children": [
+                "A7264E0E-5A35-4B63-8CBC-64DBB4D3AADC",
+                "883C6B82-0552-4BFE-8E19-5B5E5E4D01A7",
+                "35184DFB-8C8D-4872-BE69-43D1D2E6EC87",
+                "041C544A-BEA5-4D6B-94E1-BBF26340CDE6",
+                "C86B82C2-11FC-4DB9-A592-8F99117F8366"
+            ]
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "A7264E0E-5A35-4B63-8CBC-64DBB4D3AADC"
+                },
+                "name": "Cell",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "3299FE00-0E92-4F89-A712-299CE904A463"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "887FF25D-1115-4382-BE24-D59599C85E12"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "52BEB94F-FE7A-4C37-AF28-7CD96C9D32AB"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "40EB3BBC-D339-42D6-8AC4-3C84A5A6E031"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.09999999403953552,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "883C6B82-0552-4BFE-8E19-5B5E5E4D01A7"
+                },
+                "name": "Enable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "FD4261BB-EBDA-4232-B0D4-70D98033F72A"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999998845160008,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "35184DFB-8C8D-4872-BE69-43D1D2E6EC87"
+                },
+                "name": "Disable Backlit",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "81D3A09C-CB10-48BA-A743-3BBE5F05B325"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "041C544A-BEA5-4D6B-94E1-BBF26340CDE6"
+                },
+                "name": "Change Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "1AD84483-696B-417E-A603-1AB1ABBC1E12"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.9999998807907105,
+                            0.0,
+                            0.0,
+                            0.9999999403953552
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C86B82C2-11FC-4DB9-A592-8F99117F8366"
+                },
+                "name": "Undo Color",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "timeline": {
+                    "@class": "BaseComponentTimeline",
+                    "timelineId": {
+                        "uuid": "CA34C402-3E87-4EFF-8968-E6C76F9CED7C"
+                    }
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.009999997913837433,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            1.9999995231628419,
+                            0.0,
+                            1.999999761581421,
+                            0.0,
+                            0.0,
+                            0.9999998807907105
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        },
+        {
+            "@class": "BaseNode",
+            "object3D": {
+                "@class": "BaseObject3D",
+                "id": {
+                    "uuid": "C011E5C2-FB7D-4310-9A84-69FC09B35127"
+                },
+                "name": "Sphere",
+                "enabled": true,
+                "visible": true,
+                "hitVisible": true,
+                "colliders": [
+                    {
+                        "@class": "BaseComponentCollider",
+                        "colliderId": {
+                            "uuid": "6BB30402-C955-4071-9640-A5D78CC42AFE"
+                        }
+                    }
+                ],
+                "geometry": {
+                    "@class": "BaseComponentGeometry",
+                    "meshId": {
+                        "uuid": "8C74924C-4152-4E5F-BA86-B2A2AF739B97"
+                    },
+                    "static": false,
+                    "shadowCast": true,
+                    "shadowReceive": true
+                },
+                "material": {
+                    "@class": "BaseComponentMaterial",
+                    "materialId": {
+                        "uuid": "54B9EA7B-A4C3-4C94-BEDF-54AF71B2EB91"
+                    }
+                },
+                "rigidBody": {
+                    "@class": "BaseComponentPhysBody",
+                    "rigidBodyId": {
+                        "uuid": "780E7B27-9CAF-4055-A28D-00C13F131FB1"
+                    },
+                    "isEnabled": true
+                },
+                "transform": {
+                    "@class": "BaseComponentTransformable",
+                    "localTransforms": {
+                        "values": [
+                            2.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            2.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            2.0,
+                            0.0,
+                            2.0,
+                            7.0,
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "metadata": {
+                    "importedIdentifier": "",
+                    "importedName": "",
+                    "isBone": false,
+                    "tags": []
+                }
+            }
+        }
+    ],
+    "scriptSystem": {
+        "@class": "BaseScriptSystem",
+        "scripts": [
+            {
+                "@class": "Script_SkyBox",
+                "id": {
+                    "uuid": "8BC74022-8583-422A-9F4E-C2DDD5EFCD8C"
+                }
+            },
+            {
+                "@class": "Script_Sun",
+                "id": {
+                    "uuid": "99414E6E-C0D9-4511-BD4A-47AFEFB847BC"
+                }
+            },
+            {
+                "@class": "Script_Gravity",
+                "id": {
+                    "uuid": "491640B4-ECC9-4D7F-A974-76614E9934F6"
+                }
+            },
+            {
+                "@class": "CameraFollowScript",
+                "id": {
+                    "uuid": "D6A12A30-455A-4626-8C82-C73F110BC9F1"
+                }
+            },
+            {
+                "@class": "Script_PostFX",
+                "id": {
+                    "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4A"
+                }
+            },
+            {
+                "@class": "Script_FogFX",
+                "id": {
+                    "uuid": "E8A9D4B2-4E99-406A-861B-6BA10BE5AA4B"
+                }
+            },
+            {
+                "@class": "MainCharacterScript",
+                "id": {
+                    "uuid": "CCE70F4E-1368-4374-B62D-B7FD0C83A0A1"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "80567FC5-DE29-469F-91CC-4D7B3B592E0B"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "DFD1D7D4-9B52-4130-A21C-FADB8F029070"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "0BED8F15-F6C9-4AB7-838A-F06B2D558C08"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4801578E-5986-4B60-ACE2-71E67CBDED06"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "BAF42D48-B587-42ED-9769-D435335E2593"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "40A7DA28-6689-45B2-B68D-14CA9F743CCC"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "16C84FFA-B8F5-4B4C-8354-567F6E35F77C"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "72CE768A-49A7-4904-ADDF-8D6C89E4C9FC"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "382D41D8-DFC4-490A-82E3-734F68362D80"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "113E017A-97C6-4B60-B1D0-ED998C1E38C0"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B99E689B-88C3-4817-AD25-428E99873CA9"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "2B90DCBB-1E38-415F-B884-7E652D3159A4"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "04219F88-105A-4527-BEF8-10AEE9500B21"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "80DD9387-3323-4264-8AD1-06B2FBAE3CB8"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "D56C0588-8C39-48B2-9BEB-53B319FDB96A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4D2259E5-D2DB-4DC1-A953-44259FD62268"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4603A5E5-CF3F-4671-B9EA-964C55437D79"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "7903061F-0470-43DB-90F2-C684A5ED98AB"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B1DCF416-D978-47BE-B33C-9A87EFF3855A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "93D038C8-B757-43D2-95E9-E56A75EE9E72"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "04366982-B2BF-4EBB-83B7-71821E8E3A1D"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "0797C880-E036-4C9B-B399-D23116BBFA4D"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "28308480-5079-43ED-9100-14911EB0949C"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1823E5AF-C70C-4C00-BEE4-AC22082ACDB9"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "3531EA10-63E2-442D-830E-FD1D23C97461"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B06335C2-7AD5-4EBD-8C6D-03959FA75A56"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "316B5905-1557-4803-AF4C-FD7032FB557C"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "EDC8E0C0-6D50-48A4-96A8-936A190C4E66"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "830C7ADB-9DD8-41D4-B87D-0F7ACB8AF08D"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "66442C88-8D89-41F7-9C93-A7795920617B"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "EFEEC226-5011-4AF3-86B8-F5AD4285AC93"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "5C5C2D5B-48CA-47DD-A38B-6F7CE88ED69D"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "57704B8D-B7A9-4360-9113-1C95C8D1E5E6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "9184244F-062A-4974-9D60-FC58838F61BB"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1A811FEC-5C27-4B81-A118-4E3BD0CC64E2"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "F6771762-401F-4291-9EF6-5EB4CCC52E96"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "78B461CC-141D-40A7-8335-0479077381CD"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "A983BA40-2036-4EA1-9C11-F29D690E3CB3"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "59786475-6435-49C4-A10E-A13DE65A2941"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "5240E4D9-641D-4725-A5FA-88EB8952256A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "3C0E0D53-B3D0-432C-834F-BB6991F478ED"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "374904DC-0078-4F77-9ECC-2C455C5EE5CF"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B99B70FE-CF16-4FF3-94B1-93E3AC021BFF"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "50621E2B-FAA3-4238-97DA-E86A84FF8979"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "25C39A6A-4374-40F9-A622-151F9C988F61"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "DA8C7A8C-366B-438C-BFEF-026F1D60657F"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "CC236F90-0ACC-40BE-A27E-33286F4F40A9"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "4C388E22-17FB-4BBB-882C-E44BF416AA26"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "9584CA77-8FA6-49E0-9423-EB1E646B5D1E"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "9C6FC3CC-617A-42F2-81BC-01AA99E674D6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "473E4884-AA36-4501-B45F-E1D342CA062E"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "EA76EB92-7965-4AFD-A650-CE063EF19E6A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "0D0EAE93-8C87-4B50-B904-64A9C1916D97"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "7E733F65-EBC1-442D-94BB-918D3D52A4E6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "E331F2AB-8E0E-4B31-BB0F-1101E4D185DC"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "D0594C7B-2668-47F6-AC4D-F965089F3ADB"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "3766B5D3-3F55-4666-8142-1476AC4B8A99"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "23E06072-FCEE-4814-B0F8-ADFED67A0B4E"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "B28DF069-0844-4404-8FB5-0290F9FA1E7B"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "831EDE06-A4E8-494C-9341-221171AD7B9C"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "F6B707F6-62EF-47DB-8C78-3D5C8D7E8B07"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1519C272-E363-4332-94F3-FB67F0A2763A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "A59BF44B-67BB-4DCF-9114-0D110EB999BE"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "54481E84-BC48-4341-B566-F12986A01FD6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "68C3A050-686C-499D-9F01-92F69DCE4C19"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "128FF52F-1685-4C49-A54D-397B62960CD0"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "F21E092B-E11F-4D65-855C-0690BED4B92C"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "69AAFACA-7E75-48FD-AC0D-9FD41DFF25A6"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "36B1DBF0-F251-4832-8B5E-1FCBCEEA8894"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "7228E3A6-C28C-4455-9D21-5562D13D0751"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "FD4261BB-EBDA-4232-B0D4-70D98033F72A"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "81D3A09C-CB10-48BA-A743-3BBE5F05B325"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "1AD84483-696B-417E-A603-1AB1ABBC1E12"
+                }
+            },
+            {
+                "@class": "TimeLineScript",
+                "id": {
+                    "uuid": "CA34C402-3E87-4EFF-8968-E6C76F9CED7C"
+                }
+            }
+        ]
+    },
+    "assetsNames": [
+        {
+            "key": {
+                "uuid": "2C3ADF7E-395B-47DA-9A78-3DBE397225B5"
+            },
+            "value": "Floor_200x200"
+        }
+    ],
+    "tags": []
+}

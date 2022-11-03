@@ -1,0 +1,31 @@
+{
+    "@class": "Script_SkyBox",
+    "id": {
+        "uuid": "8BC74022-8583-422A-9F4E-C2DDD5EFCD8C"
+    },
+    "name": "Script_SkyBox",
+    "enableOnAwake": true,
+    "resolution": 256,
+    "topColor": {
+        "values": [
+            17.0,
+            17.0,
+            17.0
+        ]
+    },
+    "mdlColor": {
+        "values": [
+            17.0,
+            17.0,
+            17.0
+        ]
+    },
+    "btmColor": {
+        "values": [
+            17.0,
+            17.0,
+            17.0
+        ]
+    },
+    "scattering": 0.75
+}

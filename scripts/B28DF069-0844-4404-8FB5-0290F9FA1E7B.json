@@ -1,0 +1,74 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "B28DF069-0844-4404-8FB5-0290F9FA1E7B"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": false,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C7D8CDB6-24D3-4892-83A7-133EBF788834"
+                },
+                "name": "Box 1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "target": {
+                        "id": {
+                            "uuid": "E2BB6785-1356-46EB-BECE-C38100B81E50"
+                        },
+                        "type": 0
+                    }
+                },
+                "animation": {
+                    "uuid": "9F4F3A58-439A-441C-9902-592703545736"
+                },
+                "AnimationType": "object3D",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CollisionTrigger",
+            "id": {
+                "uuid": "559D8228-4A67-4855-924C-11589D0EDB25"
+            },
+            "ownerScriptId": {
+                "uuid": "B28DF069-0844-4404-8FB5-0290F9FA1E7B"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "eventType": "in",
+            "targetBindingLink": {
+                "@class": "BindingLink",
+                "target": {
+                    "id": {
+                        "uuid": "D77CC296-0947-4ACF-8586-802599DED152"
+                    },
+                    "type": 3
+                }
+            },
+            "zoneBindingLink": {
+                "@class": "BindingLink",
+                "target": {
+                    "id": {
+                        "uuid": "11C3F38C-B972-4B86-B0B7-1C0FEA78E635"
+                    },
+                    "type": 3
+                }
+            }
+        }
+    ]
+}

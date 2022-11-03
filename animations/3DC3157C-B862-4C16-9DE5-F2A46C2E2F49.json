@@ -1,0 +1,76 @@
+{
+    "@class": "Animation",
+    "id": {
+        "uuid": "3DC3157C-B862-4C16-9DE5-F2A46C2E2F49"
+    },
+    "tracks": [
+        {
+            "@class": "Vector3BehaviorTrack",
+            "clips": [
+                {
+                    "@class": "Vector3BehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "Vector3ValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "Vector3BezierBehavior",
+                        "frames": [
+                            {
+                                "@class": "Vector3BezierKeyFrame",
+                                "formula": {
+                                    "@class": "Vector3ExpressionFormula",
+                                    "expression": "var v[3]:={0.898039,0.878431,0.407843};return[v];"
+                                },
+                                "time": 0,
+                                "point1": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "point2": {
+                                    "values": [
+                                        0.0,
+                                        0.0
+                                    ]
+                                },
+                                "order": "constant",
+                                "transition": true
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "Vector3BehaviorTrackScript",
+            "disabled": true,
+            "accessor": "ColorBlendAccessor"
+        },
+        {
+            "@class": "BoolBehaviorTrack",
+            "clips": [
+                {
+                    "@class": "BoolBehaviorClip",
+                    "beginTime": 0,
+                    "duration": 0,
+                    "script": "BoolValueBehaviorClipScript",
+                    "behavior": {
+                        "@class": "BoolDiscreteBehavior",
+                        "frames": [
+                            {
+                                "@class": "BoolKeyFrame",
+                                "formula": {
+                                    "@class": "BoolExpressionFormula",
+                                    "expression": "true"
+                                },
+                                "time": 0
+                            }
+                        ]
+                    }
+                }
+            ],
+            "script": "BoolBehaviorTrackScript",
+            "accessor": "BoolVariableAccessor",
+            "attribute": "bBacklit"
+        }
+    ]
+}

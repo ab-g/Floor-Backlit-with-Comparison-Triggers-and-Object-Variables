@@ -1,0 +1,79 @@
+{
+    "@class": "TimeLineScript",
+    "id": {
+        "uuid": "128FF52F-1685-4C49-A54D-397B62960CD0"
+    },
+    "name": "Animation",
+    "enableOnAwake": false,
+    "priority": 0,
+    "loop": false,
+    "is_imported": false,
+    "type": "user",
+    "scripts": {
+        "@class": "StdListRuntimeScript",
+        "list": [
+            {
+                "@class": "AnimationScript",
+                "id": {
+                    "uuid": "C5902597-8642-48CC-A00A-3C5010D9126E"
+                },
+                "name": "Box 1",
+                "enableOnAwake": false,
+                "OwnerLink": {
+                    "@class": "BindingLink",
+                    "target": {
+                        "id": {
+                            "uuid": "F3E70D31-B6A0-41A8-B493-CE137DA596BC"
+                        },
+                        "optionalId": {
+                            "uuid": "C67E7CCA-E6A1-4755-BDF9-A04722423751"
+                        },
+                        "type": 3
+                    }
+                },
+                "animation": {
+                    "uuid": "05E115C6-5556-48B9-B58C-4DA6276F32CC"
+                },
+                "AnimationType": "objVariable",
+                "is_imported": false,
+                "isEnabled": true
+            }
+        ]
+    },
+    "triggers": [
+        {
+            "@class": "CompareTrigger",
+            "id": {
+                "uuid": "0E891FF8-682D-4AB7-84AA-98EEBA254340"
+            },
+            "ownerScriptId": {
+                "uuid": "128FF52F-1685-4C49-A54D-397B62960CD0"
+            },
+            "logicOperation": 0,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "operation": "==",
+            "eventType": "result_false",
+            "leftOperand": "getValueOfEntityVariable(object__9365A0A7_0DA7_4A2E_9B1C_8FDE24E6071D__pObject,'pNext','pNext','bBacklit')",
+            "rightOperand": "true"
+        },
+        {
+            "@class": "CompareTrigger",
+            "id": {
+                "uuid": "31F01303-FA67-4317-A27B-B406004FF847"
+            },
+            "ownerScriptId": {
+                "uuid": "128FF52F-1685-4C49-A54D-397B62960CD0"
+            },
+            "logicOperation": 1,
+            "resultType": 0,
+            "isInverted": false,
+            "triggerName": "",
+            "operation": "==",
+            "eventType": "result_false",
+            "leftOperand": "getValueOfEntityVariable(object__9365A0A7_0DA7_4A2E_9B1C_8FDE24E6071D__pObject,'pPrevious','pPrevious','bBacklit')",
+            "rightOperand": "true"
+        }
+    ]
+}
